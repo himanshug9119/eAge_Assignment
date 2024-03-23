@@ -367,63 +367,6 @@ body {
     /* color: #fff; */
 }
 
-/* .owl-controls .owl-buttons {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.owl-controls .owl-buttons .owl-prev {
-    position: absolute;
-    top: 40%;
-    left: -40px;
-    padding: 0 18px 0 15px;
-    font-weight: 900;
-    transition: background 0.5s ease 0s;
-}
-
-.owl-controls .owl-buttons .owl-next {
-    position: absolute;
-    font-weight: 900;
-    top: 40%;
-    right: -40px;
-    padding: 0 15px 0 18px;
-    transition: background 0.5s ease 0s;
-}
-
-#news-slider-client .owl-controls .owl-buttons .owl-prev {
-    position: absolute;
-    top: 100%;
-    left: 45%;
-    padding: 0 18px 0 15px;
-    font-weight: 900;
-    background: #ebebeb;
-    border-radius: 50%;
-    transition: background 0.5s ease 0s;
-}
-
-#news-slider-client .owl-controls .owl-buttons .owl-next {
-    position: absolute;
-    font-weight: 900;
-    top: 100%;
-    right: 45%;
-    padding: 0 15px 0 18px;
-    transition: background 0.5s ease 0s;
-    background: #ebebeb;
-    border-radius: 50%;
-}
-
-.owl-controls .owl-buttons .owl-prev:after,
-.owl-controls .owl-buttons .owl-next:after {
-    content: "\f104";
-    font-family: FontAwesome;
-    color: #557681;
-    font-size: 30px;
-}
-
-.owl-controls .owl-buttons .owl-next:after {
-    content: "\f105";
-} */
-
 .clienthead {
     padding: 30px 0;
 }
@@ -460,6 +403,7 @@ body {
     letter-spacing: 1px;
     line-height: 30px;
 }
+
 
 .contact {
     background-color: #d9d9d9;
