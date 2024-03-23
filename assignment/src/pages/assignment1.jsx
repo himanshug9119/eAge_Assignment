@@ -9,6 +9,7 @@ import Casestudy from "../components1/Casestudy";
 import Client from "../components1/Client";
 import Contact from "../components1/Contact";
 import Footer from "../components1/Footer";
+import "../components1/Assignment1.css";
 function Assignment1() {
   return (
     <>
