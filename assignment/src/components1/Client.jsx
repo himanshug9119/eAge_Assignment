@@ -57,8 +57,18 @@ const ClientsSection = () => {
         <div className="row clienthead">
           <div className="col-md-12">
             <Swiper
-              spaceBetween={30}
-              slidesPerView={3}
+              spaceBetween={10}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
               autoplay={true}
             >
               {slides.map((slide, index) => (
@@ -67,7 +77,7 @@ const ClientsSection = () => {
                     <div className="testimonial">
                       <img src={slide.image} className="imgtest" alt="" />
                       <h5 className="mt-4">{slide.name}</h5>
-                      <p className="description mt-4">{slide.testimonial}</p>
+                      <p className="description mt-4">"{slide.testimonial}"</p>
                     </div>
                   </div>
                 </SwiperSlide>

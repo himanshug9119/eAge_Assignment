@@ -30,8 +30,18 @@ const Casestudy = () => {
         <div className="row mt-5 mb-3">
           <div className="col-md-12">
             <Swiper
-              spaceBetween={30}
-              slidesPerView={3}
+              spaceBetween={10}
+              breakpoints={{
+                320: {
+                  slidesPerView: 1,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1024: {
+                  slidesPerView: 3,
+                },
+              }}
               loop={true}
               speed={1000}
               keyboard={true}
@@ -43,7 +53,6 @@ const Casestudy = () => {
                 prevEl: ".swiper-button-prev",
                 nextEl: ".swiper-button-next",
               }}
-              className="news-slider owl-carousel"
             >
               <SwiperSlide>
                 <div className="col-sm-12 d-flex">
@@ -56,7 +65,7 @@ const Casestudy = () => {
                       />
                     </div>
                     <div className="card-body post-content">
-                      <h5 className="card-text post-description">
+                      <h5 className="text-md mt-3 font-semibold">
                         Craft A+ Essays: Elevate your grades with Simply
                         English's writing expertise.
                       </h5>
@@ -76,7 +85,7 @@ const Casestudy = () => {
                       />
                     </div>
                     <div className="card-body post-content">
-                      <h5 className="card-text post-description">
+                      <h5 className="text-md mt-3 font-semibold">
                         From Lines of Code to Lines of Communication: Simply
                         English Unleashes Your Potential
                       </h5>
@@ -96,7 +105,7 @@ const Casestudy = () => {
                       />
                     </div>
                     <div className="card-body post-content">
-                      <h5 className="card-text post-description">
+                      <h5 className="text-md mt-3 font-semibold">
                         Speak with Heart: Simply English—Moms, speaking the
                         language of their children with ease
                       </h5>
@@ -116,7 +125,7 @@ const Casestudy = () => {
                       />
                     </div>
                     <div className="card-body post-content">
-                      <h5 className="card-text post-description">
+                      <h5 className="text-md mt-3 font-semibold">
                         Powerful Vision, Persuasive Words: Simply English for
                         Business Leaders.
                       </h5>

@@ -17,11 +17,11 @@ const Banner = () => {
               width="55px"
             />
             <div className="container__text">
-              <h4 className="mb-0">Simply English AI</h4>
+              <h4 className="mb-0 text-xl font-bold">Simply English AI</h4>
               <p>Your Gateway to Success!</p>
             </div>
           </div>
-          <h4 className="unl mt-4">
+          <h4 className="unl mt-4 text-xl">
             Unlock 1 Billion Dreams <br />
             With Our AI Driven English Learning APP
           </h4>
@@ -30,11 +30,14 @@ const Banner = () => {
             <li>Powered by Advanced AI Technology</li>
             <li>Future of Education, Right at Your Fingertips</li>
           </ul>
-          <a href="#">
-            <img src={googlePlay} alt="qr-img" className="img-fluid" />
-          </a>
-          <img src={qr} alt="qr-img" width="100px" className="img-fluid" />
-          <div className="social mt-4 gap-3">
+          <div className="flex flex-row align-items-center justify-items-center">
+            <a href="#">
+              <img src={googlePlay} alt="qr-img" className="img-fluid" />
+            </a>
+            <img src={qr} alt="qr-img" width="100px" className="img-fluid" />
+          </div>
+            
+          <div className="social mt-4 flex flex-row gap-1">
             <a href="">
               <i className="fa fa-facebook"></i>
             </a>

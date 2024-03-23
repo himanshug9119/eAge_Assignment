@@ -45,6 +45,7 @@ const ClientLogos = () => {
         <img src={univer} alt="" className="img-fluid" />
         <img src={vlcc} alt="" className="img-fluid" />
       </div>
+      
     </div>
   );
 };
