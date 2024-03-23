@@ -1,47 +1,39 @@
-// Navbar.js
 import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
 
-const Navbar = () => {
+const CustomNavbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light sticky-top">
+    <Navbar expand="lg" sticky="top" id="navbar">
       <div className="container">
-        <button
-          className="navbar-toggler ml-auto"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+        <Navbar.Toggle
           aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div
-          className="collapse navbar-collapse justify-content-end"
+          className="ml-auto"
+        />
+        <Navbar.Collapse
           id="navbarSupportedContent"
+          className="justify-content-end"
         >
-          <ul className="navbar-nav">
-            <li className="nav-item active">
-              <a className="nav-link" href="#">
+          <Nav className="ml-auto">
+            <Nav.Item>
+              <Nav.Link href="#" className="nav-link">
                 About Us
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="#" className="nav-link">
                 SimplyEnglish Web
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link border-right-0" href="#">
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="#" className="nav-link border-right-0">
                 Blogs
-              </a>
-            </li>
-          </ul>
-        </div>
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Navbar.Collapse>
       </div>
-    </nav>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default CustomNavbar;
