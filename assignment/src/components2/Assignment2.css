@@ -1,0 +1,299 @@
+.textbox {
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  right: 15px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+.textbox h2 {
+  color: var(--blue);
+}
+.textbox p {
+  color: var(--blue);
+}
+/* Define the --blue variable */
+:root {
+  --blue: #066767; /* You can change this color code to your desired blue color */
+  --dark_blue: #34f8f8;
+}
+
+/* Register box */
+.registerbox {
+  background: #066767;
+}
+.registerhead span {
+  color: var(--dark_blue);
+}
+
+.submitbtn {
+  color: var(
+    --dark_blue
+  ); /* Changed to white for better visibility on black background */
+  border: 1px solid var(--dark_blue); /* Corrected the border declaration */
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: black !important; /* Changed to background-color for better specificity */
+  transition: all 0.5s ease;
+}
+
+.submitbtn:hover {
+  background-color: var(
+    --dark_blue
+  ) !important; /* Changed to background-color */
+  border-color: black !important; /* Changed to border-color */
+  color: black !important; /* Changed to black for better visibility */
+}
+
+/* Learn */
+
+.containerbox {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.whylearnBanner {
+  padding-top: 50px;
+}
+
+.learntext {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.learnheading2 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #D68409;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.whylearnlist {
+    font-size: 24px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.whylearnlist li {
+    margin: 30px;
+    border-left: 1px solid #000;
+    padding-left: 20px;
+    color: black;
+    font-size: 26px;
+}
+.whylearnlist li span {
+    color: #066767;
+}
+
+/* Team CSS */
+.containerbox{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.yestextbanner{
+    background-color: #daddda;
+
+}
+
+.yestexthead {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 70px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.yestext {
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.bestleftimg {
+    position: relative;
+    top: -130px;
+}
+
+.item{
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.besttext {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 100px;
+    font-weight: 450;
+}
+
+/* Convince */
+
+.avilorangeBox {
+    margin: 60px 0px;
+    background: #004080;
+    color: #fff;
+}
+.avilimages{
+    padding: 0;
+    margin: 0;
+}
+.aviltextbox {
+    padding: 0px 30px;
+}
+.nottext {
+    font-size: 40px;
+}
+
+.trytext {
+    font-size: 22px;
+}
+.btnNow {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.btnNow {
+    background: #004080;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Course CSS */
+
+
+.courseboxbbaner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.containerbox {
+    padding-left: 50px;
+    padding-right: 50px;
+}   
+
+.courseBox {
+    padding-bottom: 25px;
+}
+.coursetext {
+    font-size: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Benifites */
+.benifitmainbaaner {
+    position: relative;
+}
+
+.benifitboxbanner {
+    position: relative;
+    right: 50px;
+    background: #8B9096;
+    bottom: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+.benifithead {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 70px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    display: inline-block; /* added */
+    position: relative; /* added */
+}
+
+.benifithead::after {
+    content: '';
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.benifitlist {
+    padding-left: 10px;
+    font-size: 29px;
+    list-style-type: none; /* Removes bullet points */
+}
+
+.benifitlist li {
+    font-weight: 450;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff; /* Adds a bottom border */
+}
+
+
+/* Demo  */
+
+.takeagetextbox {
+    background: #FDC97C;
+    margin-top: 170px;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+.freetextbox {
+    background: #000;
+    padding: 5px;
+    color: #FF9A02;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+/* Address */
+.addtext {
+    font-size: 28px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+
+/* Footer  */
+
+.socialmainbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.emailtextbootm {
+    font-size: 24px;
+}
+
+.socialicon {
+    display: flex;
+    gap: 10px;
+}
+
+.socialicon li {
+    list-style-type: none;
+}
+
+.socialicon a {
+    color: inherit;
+}
+
+.socialicon a:hover {
+    color: #007bff;
+}

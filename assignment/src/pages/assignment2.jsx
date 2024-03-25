@@ -1,22 +1,34 @@
-import Banner from "../components1/Banner";
-import Benifits from "../components1/Benifits";
-import ClientLogos from "../components1/ClientLogos";
-import Navbar from "../components1/Navbar";
-import Feature from "../components1/Feature";
-import HowItWorks from "../components1/HowItWorks";
-function Assignment1() {
+import Header from "../components2/Header";
+import Intro from "../components2/Intro";
+import "../components2/Assignment2.css";
+import Learn from "../components2/Learn";
+import Team from "../components2/Team";
+import Convince from "../components2/Convince";
+import Course from "../components2/Course";
+import Benifit from "../components2/Benifit";
+import Demo from "../components2/Demo";
+import Address from "../components2/Address";
+import Footer from "../components2/Footer";
+
+import "font-awesome/css/font-awesome.css";
+
+function Assignment2() {
   return (
     <>
       {/* <div> */}
-      <Navbar />
-      <Banner />
-      <Feature />
-      <Benifits />
-      <ClientLogos />
-      <HowItWorks />
+      <Header />
+      <Intro />
+      <Learn />
+      <Team />
+      <Convince />
+      <Course />
+      <Benifit />
+      <Demo />
+      <Address />
+      <Footer />
       {/* </div> */}
     </>
   );
 }
 
-export default Assignment1;
+export default Assignment2;
