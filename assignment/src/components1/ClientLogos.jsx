@@ -1,24 +1,25 @@
 import React from "react";
-import abhinav from "../assets/clientlogo/abhinav.png";
-import airtel from "../assets/clientlogo/airtel.png";
-import aspire from "../assets/clientlogo/aspire.png";
-import british from "../assets/clientlogo/british.png";
-import cologate from "../assets/clientlogo/cologate.png";
-import delhimetro from "../assets/clientlogo/delhimetro.png";
-import dpworld from "../assets/clientlogo/dpworld.png";
-import edusky from "../assets/clientlogo/edusky.png";
-import foundation from "../assets/clientlogo/foundation.png";
-import g2market from "../assets/clientlogo/g2market.png";
-import jcb from "../assets/clientlogo/jcb.png";
-import john from "../assets/clientlogo/john.png";
-import midways from "../assets/clientlogo/midways.png";
-import nov from "../assets/clientlogo/nov.png";
-import radington from "../assets/clientlogo/radington.png";
-import school from "../assets/clientlogo/school.png";
-import shubham from "../assets/clientlogo/shubham.png";
-import sos from "../assets/clientlogo/sos.png";
-import univer from "../assets/clientlogo/univer.png";
-import vlcc from "../assets/clientlogo/vlcc.png";
+import abhinav from "../assets/abhinav.png";
+import airtel from "../assets/airtel.png";
+import aspire from "../assets/aspire.png";
+import british from "../assets/british.png";
+import cologate from "../assets/cologate.png";
+import delhimetro from "../assets/delhimetro.png";
+import dpworld from "../assets/dpworld.png";
+import edusky from "../assets/edusky.png";
+import foundation from "../assets/foundation.png";
+import g2market from "../assets/g2market.png";
+import jcb from "../assets/jcb.png";
+import john from "../assets/john.png";
+import midways from "../assets/midways.png";
+import nov from "../assets/nov.png";
+import radington from "../assets/radington.png";
+import school from "../assets/school.png";
+import shubham from "../assets/shubham.png";
+import sos from "../assets/sos.png";
+import univer from "../assets/univer.png";
+import vlcc from "../assets/vlcc.png";
+
 
 const ClientLogos = () => {
   return (
