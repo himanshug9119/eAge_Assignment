@@ -2,7 +2,7 @@ import React from "react";
 import banner1 from "../assets/banner1.png"; // Import the image
 import googlePlay from "../assets/googleplay.png"; // Import the image
 import qr from "../assets/qr.png"; // Import the image
-import banner_img from "../assets/banner.jpg"; // Import the image
+import banner from "../assets/banner.jpg"; // Import the image
 
 const Banner = () => {
   return (
@@ -36,7 +36,7 @@ const Banner = () => {
             </a>
             <img src={qr} alt="qr-img" width="100px" className="img-fluid" />
           </div>
-            
+
           <div className="social mt-4 flex flex-row gap-1">
             <a href="">
               <i className="fa fa-facebook"></i>
@@ -50,7 +50,7 @@ const Banner = () => {
           </div>
         </div>
         <div className="col-lg-6 col-md-12 col-12 mt-2 mb-2">
-          <img src={banner_img} alt="banner-img" className="img-fluid w-100" />
+          <img src={banner} alt="banner-img" className="img-fluid w-100" />
         </div>
       </div>
     </div>
