@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Assignment1 from "./pages/Assignment1";
-import Assignment2 from "./pages/Assignment2";
+import Assignment1 from "./pages/assignment1";
+import Assignment2 from "./pages/assignment2";
 import Home from "./pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
