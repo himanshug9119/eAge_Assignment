@@ -1,5 +1,4 @@
 import React from "react";
-import benifitimg from "../assets2/benifiti.jpg";
 
 const Benifit = () => {
   return (
@@ -7,7 +6,7 @@ const Benifit = () => {
       <div className="flex flex-wrap">
         <div className="w-full md:w-1/2">
           <div className="benifitimg">
-            <img className="img-fluid" src={benifitimg} alt="Benefits" />
+            <img className="img-fluid" src="/benifiti.jpg" alt="Benefits" />
           </div>
         </div>
         <div className="w-full md:w-1/2 benifitboxbanner">

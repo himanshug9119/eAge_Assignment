@@ -1,5 +1,5 @@
 import React from "react";
-import convince from "../assets2/Notconv.jpg";
+
 const AvilSection = () => {
   return (
     <section className="avilorangeBox">
@@ -8,7 +8,7 @@ const AvilSection = () => {
           <div className="w-full md:w-1/2">
             <div className="avilimages">
               <img
-                src={convince}
+                src="/Notconv.jpg"
                 alt="Not convinced yet?"
                 className="img-fluid p-0"
               />
@@ -23,9 +23,7 @@ const AvilSection = () => {
                 Try a free demo
               </div>
               <a href="#registerForm">
-                <button className="btnNow mt-4 px-6 py-2">
-                  Register Now
-                </button>
+                <button className="btnNow mt-4 px-6 py-2">Register Now</button>
               </a>
             </div>
           </div>

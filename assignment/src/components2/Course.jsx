@@ -1,7 +1,4 @@
 import React from "react";
-import courseicon1 from "../assets2/courseicon1.png";
-import courseicon2 from "../assets2/courseicon2.png";
-import courseicon3 from "../assets2/courseicon3.png";
 
 const Course = () => {
   return (
@@ -16,7 +13,7 @@ const Course = () => {
               <div className="courseBox">
                 <img
                   className="img-fluid"
-                  src={courseicon1}
+                  src="/courseicon1.png"
                   alt="Course Icon 1"
                 />
                 <div className="coursetext">
@@ -31,7 +28,7 @@ const Course = () => {
               <div className="courseBox">
                 <img
                   className="img-fluid"
-                  src={courseicon2}
+                  src="/courseicon2.png"
                   alt="Course Icon 2"
                 />
                 <div className="coursetext">
@@ -46,7 +43,7 @@ const Course = () => {
               <div className="courseBox">
                 <img
                   className="img-fluid"
-                  src={courseicon3}
+                  src="/courseicon3.png"
                   alt="Course Icon 3"
                 />
                 <div className="coursetext">

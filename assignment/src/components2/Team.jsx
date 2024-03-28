@@ -2,9 +2,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 
-// Import images
-import benifitImage from "../assets2/benifit.jpg";
-
 const TestimonialsSection = () => {
   const testimonials = [
     {
@@ -50,7 +47,7 @@ const TestimonialsSection = () => {
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/2">
               <div className="bestleftimg">
-                <img className="img-fluid" src={benifitImage} alt="Benefit" />
+                <img className="img-fluid" src="/benifit.jpg" alt="Benefit" />
               </div>
             </div>
             <div className="w-full md:w-1/2">
@@ -58,12 +55,11 @@ const TestimonialsSection = () => {
                 <Swiper spaceBetween={30} slidesPerView={1} autoplay>
                   {testimonials.map((testimonial, index) => (
                     <SwiperSlide key={index}>
-                        <div className="besttext">
-                          {testimonial.text}
-                          <br />
-                          <br />
-                          -{testimonial.author}
-                        </div>
+                      <div className="besttext">
+                        {testimonial.text}
+                        <br />
+                        <br />-{testimonial.author}
+                      </div>
                     </SwiperSlide>
                   ))}
                 </Swiper>

@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets2/logo.png";
 
 const Header = () => {
   return (
@@ -8,7 +7,7 @@ const Header = () => {
       <div className="flex items-center mt-0 ml-4">
         {" "}
         {/* Adjusted margins here */}
-        <img src={logo} alt="Logo" className="w-30 h-15 img-fluid" />
+        <img src="/logo.png" alt="Logo" className="w-30 h-15 img-fluid" />
       </div>
 
       {/* Email Address */}

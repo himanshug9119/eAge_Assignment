@@ -1,5 +1,4 @@
 import React from "react";
-import learnimg from "../assets2/Whatyoulearn.jpg";
 const Learn = () => {
   return (
     <section className="py-12">
@@ -33,7 +32,7 @@ const Learn = () => {
               <div>
                 <img
                   className="img-fluid"
-                  src={learnimg}
+                  src="/Whatyoulearn.jpg"
                   alt="What you'll learn"
                 />
               </div>

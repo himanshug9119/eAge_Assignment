@@ -1,4 +1,3 @@
-import introimg from "../assets2/intro_12.png";
 import Register from "./Register";
 
 const Intro = () => {
@@ -6,7 +5,7 @@ const Intro = () => {
     <div className="flex flex-col md:flex-row justify-between items-start">
       {/* Image */}
       <div className="col-md-7 relative">
-        <img src={introimg} alt="" className="mb-4 rounded-lg w-full" />
+        <img src="/intro_12.png" alt="" className="mb-4 rounded-lg w-full" />
         {/* Text */}
         <div className="textbox">
           <h2 className="text-2xl md:text-2xl lg:text-3xl font-semibold">
@@ -22,7 +21,7 @@ const Intro = () => {
       </div>
       {/* Register Component */}
       <div className="flex flex-col justify-center items-start">
-          <Register />
+        <Register />
       </div>
     </div>
   );
