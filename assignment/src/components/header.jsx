@@ -25,11 +25,6 @@ const Header = () => {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/assignment3" className="nav-link border-right-0">
-                Assignment - 3 Contact Us
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
               <Nav.Link
                 href="https://drive.google.com/file/d/1KmvVL1p88eRVZsKjp2J1qEMhp_oEb1AB/view?usp=sharing"
                 className="nav-link border-right-0" target="_blank" rel="noopener noreferrer"
