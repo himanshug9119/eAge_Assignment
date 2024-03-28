@@ -28,3 +28,68 @@ a:hover {
 li {
     color: white;
 }
+
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.profile-image {
+  max-width: 100%;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out; /* Added transition for smooth scaling */
+}
+
+.profile-image:hover {
+  transform: scale(1.1); /* Scale the image to 1.1 times its original size on hover */
+}
+
+.info-container {
+  flex: 2;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+
+.about-text {
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.projects-links h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.projects-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-links li {
+    margin-bottom: 5px;
+}
+
+.projects-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.projects-links a:hover {
+  text-decoration: none;
+  color: rgb(1, 28, 28);
+}
