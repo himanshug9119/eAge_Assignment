@@ -1,11 +1,4 @@
 import React from "react";
-import signup1 from "../assets/signup1.png";
-import learn1 from "../assets/learn1.png";
-import prompt1 from "../assets/prompt1.png";
-import ask1 from "../assets/ask1.png";
-import review1 from "../assets/review1.png";
-import watchvideo from "../assets/watchvideo.png";
-import howitsworks from "../assets/howitsworks.png";
 
 const HowItWorks = () => {
   return (
@@ -17,7 +10,7 @@ const HowItWorks = () => {
             <ul>
               <li className="flex flex-row align-items-center">
                 <img
-                  src={signup1}
+                  src="/signup1.png"
                   alt=""
                   className="img-fluid mr-3"
                   width="69px"
@@ -26,7 +19,7 @@ const HowItWorks = () => {
               </li>
               <li className="flex flex-row align-items-center">
                 <img
-                  src={learn1}
+                  src="/learn1.png"
                   alt=""
                   className="img-fluid mr-3"
                   width="69px"
@@ -35,7 +28,7 @@ const HowItWorks = () => {
               </li>
               <li className="flex flex-row align-items-center">
                 <img
-                  src={prompt1}
+                  src="/prompt1.png"
                   alt=""
                   className="img-fluid mr-3"
                   width="69px"
@@ -44,7 +37,7 @@ const HowItWorks = () => {
               </li>
               <li className="flex flex-row align-items-center">
                 <img
-                  src={ask1}
+                  src="/ask1.png"
                   alt=""
                   className="img-fluid mr-3"
                   width="69px"
@@ -53,7 +46,7 @@ const HowItWorks = () => {
               </li>
               <li className="flex flex-row align-items-center">
                 <img
-                  src={review1}
+                  src="/review1.png"
                   alt=""
                   className="img-fluid mr-3"
                   width="69px"
@@ -62,12 +55,17 @@ const HowItWorks = () => {
               </li>
             </ul>
             <div className="d-flex justify-content-center align-items-center mt-4">
-              <img src={watchvideo} alt="" className="img-fluid" width="50%" />
+              <img
+                src="/watchvideo.png"
+                alt=""
+                className="img-fluid"
+                width="50%"
+              />
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-12 mt-2 text-center">
             <img
-              src={howitsworks}
+              src="/howitsworks.png"
               alt="feature-img"
               width="85%"
               className="img-fluid rounded"

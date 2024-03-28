@@ -4,13 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore from 'swiper';
 import "swiper/css/bundle";
 
-import featureheadPNG from "../assets/featurehead.png";
-import guidepromptsPNG from "../assets/Guideprompts.png";
-import voicePNG from "../assets/voice.png";
-import voiceenabledPNG from "../assets/voiceenabled.png";
-import chathistoryPNG from "../assets/chathistory.png";
-import askanythingPNG from "../assets/askanything.png";
-
 // Install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Pagination, Keyboard]);
 const Features = () => {
@@ -18,7 +11,7 @@ const Features = () => {
     <section className="">
       <div className="container">
         <img
-          src={featureheadPNG}
+          src="/featurehead.png"
           alt=""
           width="100px"
           className="img-fluid mb-3"
@@ -50,7 +43,7 @@ const Features = () => {
             <div className="row d-flex align-items-center pb-10">
               <div className="col-lg-6 col-md-6 col-12 mt-2 text-center mb-2">
                 <img
-                  src={guidepromptsPNG}
+                  src="/Guideprompts.png"
                   alt="app-img"
                   width="48.2%"
                   className="img-fluid rounded h-100"
@@ -75,7 +68,7 @@ const Features = () => {
             <div className="row d-flex align-items-center pb-10">
               <div className="col-lg-6 col-md-6 col-12 mt-2 text-center mb-2">
                 <img
-                  src={voicePNG}
+                  src="/voice.png"
                   alt="app-img"
                   width="48.2%"
                   className="img-fluid rounded"
@@ -100,7 +93,7 @@ const Features = () => {
             <div className="row d-flex align-items-center pb-10">
               <div className="col-lg-6 col-md-6 col-12 text-center mt-2 mb-2">
                 <img
-                  src={voiceenabledPNG}
+                  src="/voiceenabled.png"
                   width="48%"
                   alt="app-img"
                   className="img-fluid rounded"
@@ -124,7 +117,7 @@ const Features = () => {
             <div className="row d-flex align-items-center pb-10">
               <div className="col-lg-6 col-md-6 col-12  text-center mt-2 mb-2">
                 <img
-                  src={chathistoryPNG}
+                  src="/chathistory.png"
                   width="48.2%"
                   alt="app-img"
                   className="img-fluid rounded"
@@ -148,7 +141,7 @@ const Features = () => {
             <div className="row d-flex align-items-center pb-10">
               <div className="col-lg-6 col-md-6 col-12 text-center mt-2 mb-2">
                 <img
-                  src={askanythingPNG}
+                  src="/askanything.png"
                   width="48.2%"
                   alt="app-img"
                   className="img-fluid rounded"

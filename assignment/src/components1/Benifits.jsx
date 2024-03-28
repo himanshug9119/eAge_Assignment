@@ -1,7 +1,4 @@
 import React from "react";
-import benefit1 from "../assets/benefit1.png";
-import benefit2 from "../assets/benefit2.png";
-import benefit3 from "../assets/benefit3.png";
 
 const Benefits = () => {
   return (
@@ -11,7 +8,7 @@ const Benefits = () => {
         <div className="mt-5 row justify-content-between">
           <div className="col-12 col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
             <img
-              src={benefit1}
+              src="/benefit1.png"
               alt="feature-img"
               width="180px"
               className="img-fluid rounded"
@@ -22,7 +19,7 @@ const Benefits = () => {
           </div>
           <div className="col-12 col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
             <img
-              src={benefit2}
+              src="/benefit2.png"
               alt="feature-img"
               width="180px"
               className="img-fluid rounded"
@@ -33,7 +30,7 @@ const Benefits = () => {
           </div>
           <div className="col-12 col-md-4 d-flex flex-column align-items-center">
             <img
-              src={benefit3}
+              src="/benefit3.png"
               alt="feature-img"
               width="180px"
               className="img-fluid rounded"

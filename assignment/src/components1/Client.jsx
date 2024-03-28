@@ -2,49 +2,42 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-// import "./YourCustomCss.css"; // Make sure to import your custom CSS file
-import test1 from "../assets/test1.png";
-import test2 from "../assets/test2.png";
-import test3 from "../assets/test3.png";
-import test4 from "../assets/test4.png";
-import test5 from "../assets/test5.png";
-import test6 from "../assets/test6.png";
 
 const ClientsSection = () => {
   const slides = [
     {
       name: "Arjun from Bangalore",
-      image: test2,
+      image: "/test2.png",
       testimonial:
         "SimplyEnglish played a key role in my professional growth. The refined communication skills and insightful Guided Learning Prompts helped me secure a promotion. Grateful for the app's impact on my career!",
     },
     {
       name: "Priya from Mumbai",
-      image: test1,
+      image: "/test1.png",
       testimonial:
         "Navigating Chat History on SimplyEnglish kept my learning organized and proved crucial for my important presentation preparation. Thanks to the app, I delivered with confidence and received positive feedback.",
     },
     {
       name: "Raj from Delhi",
-      image: test4,
+      image: "/test4.png",
       testimonial:
         "SimplyEnglish's interactive learning was a game-changer for my business dealings. Personalized lessons and instant feedback through Voice-Enabled Learning significantly contributed to cracking a major business deal.",
     },
     {
       name: "Aisha from Hyderabad",
-      image: test3,
+      image: "/test3.png",
       testimonial:
         "Ask Anything is my favorite feature on SimplyEnglish. It clarified my doubts during exam preparation, and the confidence gained through the app's unique features helped me clear my exam with flying colors.",
     },
     {
       name: "Vikram from Chennai",
-      image: test5,
+      image: "/test5.png",
       testimonial:
         "As a content creator, SimplyEnglish was my go-to app for writing interactive website content. The fine-tuned language skills, courtesy of the app's features, made my content more engaging and impactful.",
     },
     {
       name: "Neha from Kolkata",
-      image: test6,
+      image: "/test6.png",
       testimonial:
         "SimplyEnglish significantly impacted my exam preparation. The seamless Voice-Enabled Learning made practicing skills easy, and thanks to the app, I cleared my exam with confidence. Highly recommended!",
     },

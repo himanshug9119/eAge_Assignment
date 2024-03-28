@@ -14,11 +14,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/keyboard";
 
-import craftImage from "../assets/craft.png";
-import communicationImage from "../assets/communication.png";
-import speakImage from "../assets/speak.png";
-import powerfulImage from "../assets/powerful.jpeg";
-
 // Install Swiper modules
 SwiperCore.use([Navigation, Scrollbar, A11y, Keyboard, Autoplay]);
 
@@ -60,7 +55,7 @@ const Casestudy = () => {
                     <div className="post-img">
                       <img
                         className="card-img-top"
-                        src={craftImage}
+                        src="/craft.png"
                         alt="Craft A+ Essays"
                       />
                     </div>
@@ -80,7 +75,7 @@ const Casestudy = () => {
                     <div className="post-img">
                       <img
                         className="card-img-top"
-                        src={communicationImage}
+                        src="/communication.png"
                         alt="From Lines of Code to Lines of Communication"
                       />
                     </div>
@@ -100,7 +95,7 @@ const Casestudy = () => {
                     <div className="post-img">
                       <img
                         className="card-img-top"
-                        src={speakImage}
+                        src="/speak.png"
                         alt="Speak with Heart"
                       />
                     </div>
@@ -120,7 +115,7 @@ const Casestudy = () => {
                     <div className="post-img">
                       <img
                         className="card-img-top"
-                        src={powerfulImage}
+                        src="/powerful.jpeg"
                         alt="Powerful Vision, Persuasive Words"
                       />
                     </div>

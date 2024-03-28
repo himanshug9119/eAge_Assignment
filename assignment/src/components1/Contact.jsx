@@ -1,7 +1,4 @@
 import React from "react";
-import contactImage from "../assets/contactus.jpeg";
-import googlePlayImage from "../assets/googleplay.png";
-import qrImage from "../assets/qr.png";
 
 const Contact = () => {
   return (
@@ -9,7 +6,7 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-6 col-12 mt-2 mb-2">
-            <img src={contactImage} alt="" className="img-fluid" />
+            <img src="/contactus.jpeg" alt="" className="img-fluid" />
           </div>
           <div className="col-lg-6 col-md-6 col-12 mt-2 mb-2">
             <h3 className="abtus">Keep In Touch</h3>
@@ -27,14 +24,14 @@ const Contact = () => {
             <div className="flex flex-row align-items-center justify-content-start">
               <a href="#">
                 <img
-                  src={googlePlayImage}
+                  src="/googleplay.png"
                   alt="qr-img"
                   width=""
                   className="img-fluid rounded-lg"
                 />
               </a>
               <img
-                src={qrImage}
+                src="/qr.png"
                 alt="qr-img"
                 width="100px"
                 className="img-fluid ml-3"
