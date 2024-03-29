@@ -5,7 +5,7 @@ const Intro = () => {
     <div className="flex flex-col md:flex-row justify-between items-start">
       {/* Image */}
       <div className="col-md-7 relative">
-        <img src="/intro_12.png" alt="" className="mb-4 rounded-lg w-full" />
+        <img src="/intro_123.png" alt="" className="mb-4 rounded-lg w-50%" />
         {/* Text */}
         <div className="textbox">
           <h2 className="text-2xl md:text-2xl lg:text-3xl font-semibold">

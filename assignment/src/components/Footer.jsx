@@ -2,46 +2,39 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mt-10 p-20 bg-gray-100 relative">
+    <div className="bg-gray-500 p-2">
       {/* Profiles Section */}
-      <div className="absolute right-4 bottom-4 flex flex-col gap-4 lg:flex-row lg:bottom-auto lg:right-auto lg:top-4">
-        <h2 className="text-2xl mb-4 font-bold lg:mb-0">Profiles</h2>
-        <div className="flex flex-wrap gap-4">
+      <div className="flex  flex-row justify-between md:flex-col">
+        <div className="flex flex-wrap gap-4 justify-between">
           <ProfileLink
             link="https://leetcode.com/himanshug9119/"
             icon="fa-leetcode"
             platform="LeetCode"
-            size="md"
           />
           <ProfileLink
             link="https://www.geeksforgeeks.org/author/himanshug9119/"
             icon="fa-code"
             platform="GeeksforGeeks"
-            size="md"
           />
           <ProfileLink
             link="https://codeforces.com/profile/himanshug9119/"
             icon="fa-codeforces"
             platform="Codeforces"
-            size="md"
           />
           <ProfileLink
             link="https://www.instagram.com/himanshug9119/"
             icon="fa-instagram"
             platform="Instagram"
-            size="md"
           />
           <ProfileLink
             link="https://www.linkedin.com/in/himanshug9119/"
             icon="fa-linkedin"
             platform="LinkedIn"
-            size="md"
           />
           <ProfileLink
             link="https://twitter.com/himanshug9119/"
             icon="fa-twitter"
             platform="Twitter"
-            size="md"
           />
         </div>
       </div>
@@ -49,20 +42,15 @@ const Footer = () => {
   );
 };
 
-const ProfileLink = ({ link, icon, platform, size }) => {
+const ProfileLink = ({ link, icon, platform }) => {
   return (
     <a
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className={`flex items-center px-4 py-3 text-gray-800 bg-white rounded-md shadow-md hover:bg-gray-700 transition duration-300 ${
-        size === "md" ? "text-xl" : "text-2xl"
-      }`}
+      className="flex items-center px-4 py-2 text-xl border-2 border-gray-400 rounded-lg hover:bg-gray-400 hover:text-gray-800 transition-colors"
     >
-      {/* <i className={`fab ${icon} mr-3`}></i> */}
-      <span className={`${size === "md" ? "text-lg" : "text-xl"} font-medium`}>
-        {platform}
-      </span>
+      {platform}
     </a>
   );
 };

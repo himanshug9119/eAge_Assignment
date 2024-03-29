@@ -15,8 +15,8 @@ const AboutMe = () => {
           undertaken multiple projects. I am adept at quickly grasping new
           concepts and always eager to expand my knowledge.
         </p>
-        <div className="projects-links">
-          <h2>Projects:</h2>
+        <div className="projects-links mb-2 p-2">
+          <h2 className=" font-normal">Explore Other Projects:</h2>
           <ul>
             <li>
               <a href="https://himanshu-estate.onrender.com/" target="_blank">

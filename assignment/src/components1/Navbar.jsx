@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-
+import { Link } from "react-router-dom";
 const CustomNavbar = () => {
   return (
     <Navbar expand="lg" sticky="top" id="navbar">
@@ -15,19 +15,19 @@ const CustomNavbar = () => {
         >
           <Nav className="ml-auto">
             <Nav.Item>
-              <Nav.Link href="#" className="nav-link">
+              <Link to="/aboutUs" className="nav-link">
                 About Us
-              </Nav.Link>
+              </Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#" className="nav-link">
+              <Link to="/SimplyEnglish" className="nav-link">
                 SimplyEnglish Web
-              </Nav.Link>
+              </Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#" className="nav-link border-right-0">
+              <Link to="/blogs" className="nav-link border-right-0">
                 Blogs
-              </Nav.Link>
+              </Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
