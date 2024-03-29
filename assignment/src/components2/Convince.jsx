@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AvilSection = () => {
   return (
@@ -22,9 +23,9 @@ const AvilSection = () => {
               <div className="trytext text-3xl font-medium text-white">
                 Try a free demo
               </div>
-              <a href="#registerForm">
+              <Link to="/register">
                 <button className="btnNow mt-4 px-6 py-2">Register Now</button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

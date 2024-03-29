@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Demo = () => {
   return (
     <>
@@ -11,7 +13,7 @@ const Demo = () => {
         </div>
       </div>
       <div className="freetextbox">
-        <a href="#registerForm">Start A FREE DEMO</a>
+        <Link href="/register">Start A FREE DEMO</Link>
       </div>
     </>
   );
